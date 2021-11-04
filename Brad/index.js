@@ -59,3 +59,13 @@ const student = generateStudents(100)
 
 console.log(student);
 
+function writePassword() {
+    var password = generatePassword();
+    var passwordText = document.querySelector("#password");
+         password = password.slice(0,isPasswordLength)
+        passwordText.value = password;  
+        
+  }
+// document.querySelector('.last').textContent = last;
+// document.querySelector('.age').textContent = age;
+// document.querySelector('.gpa').textContent = gpa;

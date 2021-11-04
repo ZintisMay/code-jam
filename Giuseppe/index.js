@@ -25,3 +25,6 @@ function randomNumber(min, max) {
   
   console.log(randomStudents())
   
+  const displayMessage = function (message) {
+    document.querySelector('.first').textContent = message;
+  };
