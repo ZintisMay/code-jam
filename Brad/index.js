@@ -1,3 +1,4 @@
+
 const firstNames = ["Brad", "Zintis", "Joe", "Phoebe", "Giuseppe"];
 
 const lastNames = ["Jones", "Smith", "Brown", "White", "Johnson"];
@@ -11,6 +12,7 @@ randomLast = function () {
   random = Math.floor(Math.random() * 4 + 1);
   return lastNames[random]
 };
+
 
 const randomAge = () => Math.trunc(Math.random() * 72 + 1);
 
@@ -51,4 +53,7 @@ student.forEach((ele) => {
   tr.append(td1, td2, td3, td4)
   tableContent.appendChild(tr)
 })
+
+
+
 
